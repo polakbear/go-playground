@@ -10,15 +10,6 @@ import (
 )
 
 func main() {
-	//fileName := "birthday_001.txt"
-	//// => Birthday - 1 of 4.txt
-	//newName, err := match(fileName, 4)
-	//if err != nil {
-	//	fmt.Println("no match")
-	//	os.Exit(1)
-	//}
-	//
-	//fmt.Println(newName)
 	dir := "./sample"
 	files, err := ioutil.ReadDir(dir)
 	if err != nil {
